@@ -3,9 +3,12 @@ title: Place for stuff
 email: gabriel.d.mikaelsson@gmail.com
 description: >
   A thing to place stuff.
-baseurl: "/example" # the subpath of your site, e.g. /blog/
 url: "https://surculus12.github.io" 
 name: Gabriel Mikaelsson
 
+plugins:
+  - jekyll-remote-theme
+
 # Build settings
 markdown: kramdown
+remote_theme: kronik3r/daktilo
